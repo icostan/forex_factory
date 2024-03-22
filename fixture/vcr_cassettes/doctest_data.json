@@ -1,0 +1,46 @@
+[
+  {
+    "request": {
+      "options": [],
+      "body": "",
+      "url": "https://www.forexfactory.com/calendar/graph/136045?limit=:limit&limit=1",
+      "headers": {
+        "accept-encoding": "gzip",
+        "user-agent": "req/0.4.14"
+      },
+      "method": "get",
+      "request_body": ""
+    },
+    "response": {
+      "binary": true,
+      "type": "ok",
+      "body": "g20AAAEHH4sIAAAAAAAAA12Q3WqEMBCFX2UZ6F0oSbQqvkP7AmWRqY4QMHFJRi8qvnsn627b3UAgkzPf/JwNPDFCu8FAvfM4JWiNAheY4opTF9ATtPD+YUABfWGijlYK3LkB2qYpFXxTnLvJBUnTAqbOz1HeHBfaFQx4VL9CUvtzg0yaotJleZXpYE1ttC2rSuvjNzfFeDJWnawI0h17XmSicY4emUmqQPFqX34VaCXUD8cqkHTqMfETZzJ31zJpHknxINLqkpvDfzIs0/Sn3GNZWkZwqww9ioN0s0GaSn3Z++bGWcElT8LOU2L0l+yHqXXdFLm7yOPCS6TnBCNbvck97/sP7qe2Ua8BAAA=",
+      "headers": {
+        "date": "Fri, 22 Mar 2024 08:11:57 GMT",
+        "content-type": "application/json",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "cache-control": "public, max-age=30",
+        "pragma": "no-cache",
+        "content-encoding": "gzip",
+        "vary": "Accept-Encoding",
+        "s": "w3",
+        "x-frame-options": "SAMEORIGIN",
+        "strict-transport-security": "max-age=300; includeSubDomains",
+        "x-xss-protection": "1; mode=block",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer-when-downgrade",
+        "access-control-allow-origin": "http://www.forexfactory.com",
+        "access-control-allow-credentials": "false",
+        "cf-cache-status": "HIT",
+        "age": "29",
+        "last-modified": "Fri, 22 Mar 2024 08:11:28 GMT",
+        "expires": "Fri, 22 Mar 2024 08:12:27 GMT",
+        "set-cookie": "__cf_bm=CbXPCR_At8CwLil8vPTsP7eQmE6DbMV4hHePK4ahBtg-1711095117-1.0.1.1-YXCjOscU8pAD18M4h2ldq5YTYYxpvvgwTkuXxmJ_fvFf13Uay_662uIYXWvxDbh3EpcG_Zf1jb_dBL_dgIMcA02xxH70b42ukUZBiLzaWjg; path=/; expires=Fri, 22-Mar-24 08:41:57 GMT; domain=.forexfactory.com; HttpOnly; Secure; SameSite=None",
+        "server": "cloudflare",
+        "cf-ray": "8684b6c66f30dd70-LHR"
+      },
+      "status_code": 200
+    }
+  }
+]

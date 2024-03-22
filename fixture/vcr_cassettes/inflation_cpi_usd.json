@@ -1,0 +1,45 @@
+[
+  {
+    "request": {
+      "options": [],
+      "body": "",
+      "url": "https://www.forexfactory.com/calendar/graph/136045?limit=:limit&limit=1",
+      "headers": {
+        "accept-encoding": "gzip",
+        "user-agent": "req/0.4.14"
+      },
+      "method": "get",
+      "request_body": ""
+    },
+    "response": {
+      "binary": true,
+      "type": "ok",
+      "body": "g20AAAEHH4sIAAAAAAAAA12Q3WqEMBCFX2UZ6F0oSbQqvkP7AmWRqY4QMHFJRi8qvnsn627b3UAgkzPf/JwNPDFCu8FAvfM4JWiNAheY4opTF9ATtPD+YUABfWGijlYK3LkB2qYpFXxTnLvJBUnTAqbOz1HeHBfaFQx4VL9CUvtzg0yaotJleZXpYE1ttC2rSuvjNzfFeDJWnawI0h17XmSicY4emUmqQPFqX34VaCXUD8cqkHTqMfETZzJ31zJpHknxINLqkpvDfzIs0/Sn3GNZWkZwqww9ioN0s0GaSn3Z++bGWcElT8LOU2L0l+yHqXXdFLm7yOPCS6TnBCNbvck97/sP7qe2Ua8BAAA=",
+      "headers": {
+        "date": "Fri, 22 Mar 2024 09:12:39 GMT",
+        "content-type": "application/json",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "cache-control": "public, max-age=30",
+        "pragma": "no-cache",
+        "content-encoding": "gzip",
+        "vary": "Accept-Encoding",
+        "s": "w4",
+        "x-frame-options": "SAMEORIGIN",
+        "strict-transport-security": "max-age=300; includeSubDomains",
+        "x-xss-protection": "1; mode=block",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer-when-downgrade",
+        "access-control-allow-origin": "http://www.forexfactory.com",
+        "access-control-allow-credentials": "false",
+        "cf-cache-status": "EXPIRED",
+        "last-modified": "Fri, 22 Mar 2024 07:46:25 GMT",
+        "expires": "Fri, 22 Mar 2024 09:13:09 GMT",
+        "set-cookie": "__cf_bm=Pak7wVbnKhpzZo9kLdNUfhj8h4p.14sJ6XUaNggMlZc-1711098759-1.0.1.1-zZwec8asW8NwKYylQ7KCFmdFyaEqU2qo26hl7ny01jRHLyqbDcwhF8x_V_gewvw7zkzdUbr8e8wAi1m2Zj9kykJ95yxTp5SaIvHf1tHS3OQ; path=/; expires=Fri, 22-Mar-24 09:42:39 GMT; domain=.forexfactory.com; HttpOnly; Secure; SameSite=None",
+        "server": "cloudflare",
+        "cf-ray": "86850faab9fe4d64-FRA"
+      },
+      "status_code": 200
+    }
+  }
+]

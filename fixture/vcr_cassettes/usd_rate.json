@@ -1,0 +1,45 @@
+[
+  {
+    "request": {
+      "options": [],
+      "body": "",
+      "url": "https://www.forexfactory.com/calendar/graph/136095?limit=:limit&limit=3",
+      "headers": {
+        "accept-encoding": "gzip",
+        "user-agent": "req/0.4.14"
+      },
+      "method": "get",
+      "request_body": ""
+    },
+    "response": {
+      "binary": true,
+      "type": "ok",
+      "body": "g20AAAE8H4sIAAAAAAAAA9WSz2qEMBDGX6UM9BZKjBqj5z0Vui9QiqQ6CwETlyR6qPjuHf/sbrv00kuhtzjzffPlF2cCi1FDNUGLjbG6C1AlDIyL6Efd1U5bhApejgkwwHcdsMYRXaxNuwo/0Pd1ZxyJONlCbXtP5+gHnBm0epu9Wmjy6wSrT6i0LNc2bt5ElkrJRHK+VSny2I8PgouUcnUTB7rLqfdWx4g0AfKnnD9eW1DRNwMSYKND/FF5ae5aj6MJpnfftHCrQ+WGrluRKMOMdKUTvQ7ukBRC44hqL8/sipZdIHa0gouspOIN7YDNf0RLJS/FHZosRPH1rz1rt6Blf4i2wfwebt3RNwbnJTsaiyFqe162NJFKFjJfuGgxeVpm2XbMRSoU52Q6DXHweGej51AiWwTz/AmiOqMSWQMAAA==",
+      "headers": {
+        "date": "Wed, 20 Mar 2024 09:31:25 GMT",
+        "content-type": "application/json",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "cache-control": "public, max-age=30",
+        "pragma": "no-cache",
+        "content-encoding": "gzip",
+        "vary": "Accept-Encoding",
+        "s": "w1",
+        "x-frame-options": "SAMEORIGIN",
+        "strict-transport-security": "max-age=300; includeSubDomains",
+        "x-xss-protection": "1; mode=block",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer-when-downgrade",
+        "access-control-allow-origin": "http://www.forexfactory.com",
+        "access-control-allow-credentials": "false",
+        "cf-cache-status": "MISS",
+        "last-modified": "Wed, 20 Mar 2024 09:31:25 GMT",
+        "expires": "Wed, 20 Mar 2024 09:31:55 GMT",
+        "set-cookie": "__cf_bm=z5wTzefiAVDiwjO.WhNxY26V4x0PFeWHDDvFg0LQ1gA-1710927085-1.0.1.1-YZWORKbuqgKGCtMTWN.o6Vj.XF20RguB1VKT66BOA7Ut_DGPhaWnTz2chekEG9v4UQNvzMw4eMn7vootg9ctxGdFTGZsqkzkL9gvLR7OvH4; path=/; expires=Wed, 20-Mar-24 10:01:25 GMT; domain=.forexfactory.com; HttpOnly; Secure; SameSite=None",
+        "server": "cloudflare",
+        "cf-ray": "8674b06a9b456365-LHR"
+      },
+      "status_code": 200
+    }
+  }
+]
