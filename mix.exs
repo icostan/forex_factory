@@ -6,10 +6,21 @@ defmodule ForexFactory.MixProject do
       app: :forex_factory,
       version: "0.1.0",
       elixir: "~> 1.16",
+      name: "ForexFactory",
+      description: "ForexFactory API Client for Elixir (https://www.forexfactory.com/)",
+      package: package(),
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       aliases: aliases()
     ]
+  end
+
+  def package() do
+    %{
+      licenses: ["MIT"],
+      maintainers: ["Iulian Costan"],
+      links: %{"GitHub" => "https://github.com/icostan/forex_factory"}
+    }
   end
 
   # Run "mix help compile.app" to learn about applications.
