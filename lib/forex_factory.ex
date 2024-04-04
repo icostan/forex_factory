@@ -16,23 +16,23 @@ defmodule ForexFactory do
   @doc """
   Return all events for a given `type`.
 
-      iex> ForexFactory.Events.Inflation.CORE_CPI |> ForexFactory.events()
+      iex> ForexFactory.Events.Inflation.CoreCPI |> ForexFactory.events()
       [
         %ForexFactory.Event{
           id: "136038",
-          type: ForexFactory.Events.Inflation.CORE_CPI,
+          type: ForexFactory.Events.Inflation.CoreCPI,
           currency: :USD,
           frequency: :MoM
         },
         %ForexFactory.Event{
           id: "139672",
-          type: ForexFactory.Events.Inflation.CORE_CPI,
+          type: ForexFactory.Events.Inflation.CoreCPI,
           currency: :JPY,
           frequency: :YoY
         },
         %ForexFactory.Event{
           id: "138953",
-          type: ForexFactory.Events.Inflation.CORE_CPI,
+          type: ForexFactory.Events.Inflation.CoreCPI,
           currency: :EUR,
           frequency: :YoY
         }
@@ -47,16 +47,16 @@ defmodule ForexFactory do
   @doc """
   Return a specific event for given `type` and `currency` or raise error if not found.
 
-      iex> ForexFactory.Events.Inflation.CORE_CPI |> ForexFactory.event!(:USD)
+      iex> ForexFactory.Events.Inflation.CoreCPI |> ForexFactory.event!(:USD)
       %ForexFactory.Event{
         id: "136038",
-        type: ForexFactory.Events.Inflation.CORE_CPI,
+        type: ForexFactory.Events.Inflation.CoreCPI,
         currency: :USD,
         frequency: :MoM
       }
 
-      iex> ForexFactory.Events.Inflation.CORE_CPI |> ForexFactory.event!(:NZD)
-      ** (ArgumentError) missing 'NZD' event of type Elixir.ForexFactory.Events.Inflation.CORE_CPI
+      iex> ForexFactory.Events.Inflation.CoreCPI |> ForexFactory.event!(:NZD)
+      ** (ArgumentError) missing 'NZD' event of type Elixir.ForexFactory.Events.Inflation.CoreCPI
 
   """
   @spec event!(type, currency) :: event
@@ -70,18 +70,18 @@ defmodule ForexFactory do
   @doc """
   Return a specific event for given `type` and `currency` or error if not found.
 
-      iex> ForexFactory.Events.Inflation.CORE_CPI |> ForexFactory.event(:USD)
+      iex> ForexFactory.Events.Inflation.CoreCPI |> ForexFactory.event(:USD)
       {:ok,
         %ForexFactory.Event{
         id: "136038",
-        type: ForexFactory.Events.Inflation.CORE_CPI,
+        type: ForexFactory.Events.Inflation.CoreCPI,
         currency: :USD,
         frequency: :MoM
         }}
 
-      iex> ForexFactory.Events.Inflation.CORE_CPI |> ForexFactory.event(:NZD)
+      iex> ForexFactory.Events.Inflation.CoreCPI |> ForexFactory.event(:NZD)
       {:error,
-        "missing 'NZD' event of type Elixir.ForexFactory.Events.Inflation.CORE_CPI"}
+        "missing 'NZD' event of type Elixir.ForexFactory.Events.Inflation.CoreCPI"}
 
   """
   @spec event(type, currency) :: {:ok, event} | {:error, term}

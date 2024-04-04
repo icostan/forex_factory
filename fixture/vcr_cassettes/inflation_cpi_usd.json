@@ -3,7 +3,7 @@
     "request": {
       "options": [],
       "body": "",
-      "url": "https://www.forexfactory.com/calendar/graph/136045?limit=:limit&limit=1",
+      "url": "https://www.forexfactory.com/calendar/graph/136045?limit=1",
       "headers": {
         "accept-encoding": "gzip",
         "user-agent": "req/0.4.14"
@@ -16,7 +16,7 @@
       "type": "ok",
       "body": "g20AAAEHH4sIAAAAAAAAA12Q3WqEMBCFX2UZ6F0oSbQqvkP7AmWRqY4QMHFJRi8qvnsn627b3UAgkzPf/JwNPDFCu8FAvfM4JWiNAheY4opTF9ATtPD+YUABfWGijlYK3LkB2qYpFXxTnLvJBUnTAqbOz1HeHBfaFQx4VL9CUvtzg0yaotJleZXpYE1ttC2rSuvjNzfFeDJWnawI0h17XmSicY4emUmqQPFqX34VaCXUD8cqkHTqMfETZzJ31zJpHknxINLqkpvDfzIs0/Sn3GNZWkZwqww9ioN0s0GaSn3Z++bGWcElT8LOU2L0l+yHqXXdFLm7yOPCS6TnBCNbvck97/sP7qe2Ua8BAAA=",
       "headers": {
-        "date": "Fri, 22 Mar 2024 09:12:39 GMT",
+        "date": "Wed, 03 Apr 2024 08:17:47 GMT",
         "content-type": "application/json",
         "transfer-encoding": "chunked",
         "connection": "keep-alive",
@@ -24,7 +24,7 @@
         "pragma": "no-cache",
         "content-encoding": "gzip",
         "vary": "Accept-Encoding",
-        "s": "w4",
+        "s": "w1",
         "x-frame-options": "SAMEORIGIN",
         "strict-transport-security": "max-age=300; includeSubDomains",
         "x-xss-protection": "1; mode=block",
@@ -32,12 +32,12 @@
         "referrer-policy": "no-referrer-when-downgrade",
         "access-control-allow-origin": "http://www.forexfactory.com",
         "access-control-allow-credentials": "false",
-        "cf-cache-status": "EXPIRED",
-        "last-modified": "Fri, 22 Mar 2024 07:46:25 GMT",
-        "expires": "Fri, 22 Mar 2024 09:13:09 GMT",
-        "set-cookie": "__cf_bm=Pak7wVbnKhpzZo9kLdNUfhj8h4p.14sJ6XUaNggMlZc-1711098759-1.0.1.1-zZwec8asW8NwKYylQ7KCFmdFyaEqU2qo26hl7ny01jRHLyqbDcwhF8x_V_gewvw7zkzdUbr8e8wAi1m2Zj9kykJ95yxTp5SaIvHf1tHS3OQ; path=/; expires=Fri, 22-Mar-24 09:42:39 GMT; domain=.forexfactory.com; HttpOnly; Secure; SameSite=None",
+        "cf-cache-status": "MISS",
+        "last-modified": "Wed, 03 Apr 2024 08:17:47 GMT",
+        "expires": "Wed, 03 Apr 2024 08:18:17 GMT",
+        "set-cookie": "__cf_bm=oI_qTqYx1p8.DNN.Opj0_k.8DqGGtpNXzqL3fLzrVe0-1712132267-1.0.1.1-ZjAoo.UY8aPxG86DIK2cUoPuAKNEIUn80EcflpEAY0BoGj9MtXlpLwYVpjoq.zbwc1_tyrjh074o3l5yxjycagN4_MUMeO4hyKhq7XdjbRM; path=/; expires=Wed, 03-Apr-24 08:47:47 GMT; domain=.forexfactory.com; HttpOnly; Secure; SameSite=None",
         "server": "cloudflare",
-        "cf-ray": "86850faab9fe4d64-FRA"
+        "cf-ray": "86e79fc9e823924d-FRA"
       },
       "status_code": 200
     }

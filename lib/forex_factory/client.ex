@@ -3,7 +3,7 @@ defmodule ForexFactory.Client do
 
   alias ForexFactory.{HttpClient, Event}
 
-  @api_path "/calendar/graph/:id?limit=:limit"
+  @api_path "/calendar/graph/:id"
 
   @spec data(Event.t(), keyword) :: {:ok, term} | {:error, term}
   def data(event, opts \\ [])

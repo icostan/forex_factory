@@ -9,7 +9,7 @@ defmodule ForexFactory.Events.InflationTest do
   end
 
   test "CORE CPI USD" do
-    assert {:ok, %Event{id: "136038", frequency: :MoM}} = Events.Inflation.CORE_CPI.event(:USD)
+    assert {:ok, %Event{id: "136038", frequency: :MoM}} = Events.Inflation.CoreCPI.event(:USD)
   end
 
   test ".data/2" do

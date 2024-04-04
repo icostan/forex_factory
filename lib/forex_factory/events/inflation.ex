@@ -18,7 +18,7 @@ defmodule ForexFactory.Events.Inflation do
     defevent({:USD, %Event{id: "136045", frequency: :YoY}})
   end
 
-  defmodule CORE_CPI do
+  defmodule CoreCPI do
     @moduledoc "Core Consumer Price Index"
     use Events.Type
 
@@ -27,7 +27,7 @@ defmodule ForexFactory.Events.Inflation do
     defevent({:USD, %Event{id: "136038", frequency: :MoM}})
   end
 
-  defmodule EARNINGS do
+  defmodule Earnings do
     @moduledoc "Average Earnings"
     use Events.Type
 
