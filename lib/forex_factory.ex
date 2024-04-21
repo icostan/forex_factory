@@ -31,7 +31,7 @@ defmodule ForexFactory do
           frequency: :YoY
         },
         %ForexFactory.Event{
-          id: "138953",
+          id: "138961",
           type: ForexFactory.Events.Inflation.CoreCPI,
           currency: :EUR,
           frequency: :YoY
