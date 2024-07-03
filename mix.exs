@@ -4,7 +4,7 @@ defmodule ForexFactory.MixProject do
   def project do
     [
       app: :forex_factory,
-      version: "0.1.2",
+      version: "0.1.3",
       elixir: "~> 1.16",
       name: "ForexFactory",
       description: "ForexFactory API Client for Elixir (https://www.forexfactory.com/)",
