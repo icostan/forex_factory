@@ -22,6 +22,7 @@ defmodule ForexFactory.Events.ConsumerSurveys do
 
     defevent({:AUD, %Event{id: "137251", frequency: :MoM}})
     defevent({:GBP, %Event{id: "135678", frequency: :MoM}})
+    defevent({:NZD, %Event{id: "137491", frequency: :QoQ}})
     defevent({:USD, %Event{id: "136319", frequency: :MoM}})
   end
 end

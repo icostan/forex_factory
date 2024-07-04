@@ -15,7 +15,7 @@ defmodule ForexFactory.Events.BusinessSurveys do
     defevent({:GBP, %Event{id: "134922", frequency: :MoM}})
     defevent({:JPY, %Event{id: "134915", frequency: :MoM}})
     defevent({:NZD, %Event{id: "137472", frequency: :MoM}})
-    defevent({:USD, %Event{id: "138661", frequency: :MoM}})
+    defevent({:USD, %Event{id: "136592", frequency: :MoM}})
   end
 
   defmodule Services do
@@ -27,6 +27,6 @@ defmodule ForexFactory.Events.BusinessSurveys do
     defevent({:EUR, %Event{id: "134921", frequency: :MoM}})
     defevent({:GBP, %Event{id: "134923", frequency: :MoM}})
     defevent({:NZD, %Event{id: "137484", frequency: :MoM}})
-    defevent({:USD, %Event{id: "138660", frequency: :MoM}})
+    defevent({:USD, %Event{id: "136616", frequency: :MoM}})
   end
 end
