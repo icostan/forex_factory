@@ -4,9 +4,10 @@ defmodule ForexFactory.Event do
   @type frequency :: :YoY | :QoQ | :MoM | :QoY
   @type t :: %__MODULE__{
           id: binary,
+          name: binary,
           type: module,
           currency: ForexFactory.currency(),
           frequency: frequency()
         }
-  defstruct ~w(id type currency frequency)a
+  defstruct ~w(id name type currency frequency)a
 end
