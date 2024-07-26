@@ -4,7 +4,7 @@ defmodule ForexFactory.MixProject do
   def project do
     [
       app: :forex_factory,
-      version: "0.1.4",
+      version: "0.1.5",
       elixir: "~> 1.16",
       name: "ForexFactory",
       description: "ForexFactory API Client for Elixir (https://www.forexfactory.com/)",
@@ -33,7 +33,7 @@ defmodule ForexFactory.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:req, "~> 0.4.0"},
+      {:req, "~> 0.5.4"},
       {:nimble_csv, "~> 1.2.0"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:exvcr, "~> 0.11", only: [:dev, :test]},

@@ -36,4 +36,25 @@ defmodule ForexFactory.Events.Inflation do
     defevent({:JPY, %Event{id: "128869", frequency: :YoY}})
     defevent({:USD, %Event{id: "135980", frequency: :MoM}})
   end
+
+  defmodule PPI do
+    @moduledoc "Producer Price Index"
+    use Events.Type
+
+    defevent({:AUD, %Event{id: "137220", name: "AUD PPI", frequency: :QoQ}})
+    defevent({:CHF, %Event{id: "135007", name: "CHF PPI", frequency: :MoM}})
+    defevent({:CNY, %Event{id: "135158", name: "CNY PPI", frequency: :YoY}})
+    defevent({:EUR, %Event{id: "139001", name: "EUR PPI", frequency: :MoM}})
+    defevent({:GBP, %Event{id: "138772", name: "GBP PPI Output", frequency: :MoM}})
+    defevent({:JPY, %Event{id: "139702", name: "JPY PPI", frequency: :YoY}})
+    defevent({:NZD, %Event{id: "137979", name: "NZD PPI Output", frequency: :QoQ}})
+    defevent({:USD, %Event{id: "136022", name: "USD PPI", frequency: :MoM}})
+  end
+
+  defmodule CorePPI do
+    @moduledoc "Core Producer Price Index"
+    use Events.Type
+
+    defevent({:USD, %Event{id: "136021", name: "Core USD PPI", frequency: :MoM}})
+  end
 end
